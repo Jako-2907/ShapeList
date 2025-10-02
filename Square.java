@@ -1,23 +1,27 @@
 public class Square extends Shape {
-    private double lado = 0;
+    private double side = 0;
 
-    public Square(int id, double xCoordinate, double yCoordinate, double lado) {
+    public Square(int id, double xCoordinate, double yCoordinate, double side) {
         super(id, xCoordinate, yCoordinate);
-        this.lado = lado;
+        this.side = side;
+    }
+
+    public double getSide(){
+        return side;
     }
 
     @Override
     public double getArea() {
-        if (lado > 0) {
-            return lado * lado;
+        if (side > 0) {
+            return side * side;
         }
         return 0;
     }
 
     @Override
     public double getPerimeter() {
-        if (lado > 0) {
-            return 4 * lado;
+        if (side > 0) {
+            return 4 * side;
         }
         return 0;
     }
