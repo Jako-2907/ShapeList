@@ -16,7 +16,10 @@ public class Square extends Shape {
 
     @Override
     public double getPerimeter() {
-        return 4 * lado;
+        if (lado > 0) {
+            return 4 * lado;
+        }
+        return 0;
     }
 
 }
