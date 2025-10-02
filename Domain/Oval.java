@@ -1,3 +1,4 @@
+package Domain;
 public class Oval extends Circle{
     //variables
     private double radio2;

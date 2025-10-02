@@ -1,3 +1,4 @@
+package Domain;
 public class Square extends Shape {
     private double side = 0;
 

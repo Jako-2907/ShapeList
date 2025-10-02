@@ -1,3 +1,4 @@
+package Domain;
 public abstract class Shape{
     //Variables
     private int id;
