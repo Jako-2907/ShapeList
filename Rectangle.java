@@ -6,7 +6,7 @@ public class Rectangle extends Square {
         this.side2 = side2;
     }
 
-    public double getSide(){
+    public double getSide2(){
         return side2;
     }
 
